@@ -26,12 +26,15 @@ The system follows a microservices architecture with the following components:
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/Inspiring-Ming/ESG-KGR-SYSTEM
+
+git clone https://github.com/Inspiring-Ming/esg-kgr-system.git
+
 cd esg-kgr-system
-Copy
+
 2. Install dependencies for all services:
+
 ./start-services.sh
-Copy
+
 This will start all the services at once.
 
 Alternatively, you can start each service individually:
