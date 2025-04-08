@@ -2,7 +2,7 @@
 
 **ESG-KGR** is a knowledge graph reasoning framework for automated sustainability reporting that addresses complex semantic challenges in ESG reporting. The system enables in-depth reasoning across ESG entities and relationships through specialized microservices.
 
----
+
 
 ## Architecture
 
@@ -18,7 +18,7 @@ The system follows a microservices architecture with the following components:
 - **Result Repository**: Stores calculation results and workflow context  
 - **Report Service**: Generates reports based on templates  
 
----
+
 
 ## Getting Started
 
@@ -75,7 +75,7 @@ cd services/api-gateway && npm install && PORT=3001 node server.js
 cd services/client-interface && npm install && npm start
 ```
 
----
+
 
 ## Usage
 
@@ -90,7 +90,7 @@ cd services/client-interface && npm install && npm start
    - Execute calculation
    - Generate report
 
----
+
 
 ## API Documentation
 
@@ -117,7 +117,7 @@ cd services/client-interface && npm install && npm start
 - `/api/reasoning/constraint-based/inputs?model={id}` - Get required inputs for a model
 - `/api/reasoning/constraint-based/validate-inputs` - Validate inputs for a model
 
----
+
 
 ## Conclusion
 
